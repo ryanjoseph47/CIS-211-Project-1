@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # Custom CSS (optional - for styling)
-st.mardown('''        
+ st.mardown('''        
               <style>
                   .main-haeder {front-size: 42px; font-weight: bold; text-align:center;}
                   .sub-header {font_size: 24px; text-align:center; color: #666;}
