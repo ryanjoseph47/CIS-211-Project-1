@@ -23,6 +23,6 @@ page = st.sidebar.radio('Go to')
                         ['🏠 Home', '😇About', '🧳 Projects', '🛠️ Skill', '📈b Resume',📩 Contact'])
 
 # Home Page
-if page =='🏠 Home':
+if page == '🏠 Home':
   st.mardown('<p class="main-header">Ryan Joseph</p>', unsafe_allow_html=True)
   st.mardown('<p class="sub-header">Ryan Student | Medgar Evers College</p>', unsafe_allow_html=True)
