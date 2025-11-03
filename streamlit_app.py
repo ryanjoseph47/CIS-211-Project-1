@@ -20,7 +20,7 @@ st.mardown('''
 # Sidebar
 st. sidebar.title('📍 Navigation')
 page = st.sidebar.radio('Go to')
-                        ['🏠 Home', '😇About', '🧳 Projects', '🛠️ Skill', '📈b Resume',📩 Contact'])
+                        ['🏠 Home', '😇About', '🧳 Projects', '🛠️ Skill', '📈b Resume', '📩 Contact'])
 
 # Home Page
 if page =='🏠 Home':
