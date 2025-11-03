@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # Custom CSS (optional - for styling)
-  st.mardown('''        
+  st.markdown('''        
               <style>
                   .main-haeder {front-size: 42px; font-weight: bold; text-align:center;}
                   .sub-header {font_size: 24px; text-align:center; color: #666;}
@@ -24,5 +24,5 @@ page = st.sidebar.radio('Go to'
 
 # Home Page
 if page =='🏠 Home': 
-  st.mardown('<p class="main-header">Ryan Joseph</p>', unsafe_allow_html=True)
-  st.mardown('<p class="sub-header">Ryan Student | Medgar Evers College</p>', unsafe_allow_html=True)
+  st.markdown('<p class="main-header">Ryan Joseph</p>', unsafe_allow_html=True)
+  st.markdown('<p class="sub-header">Ryan Student | Medgar Evers College</p>', unsafe_allow_html=True)
