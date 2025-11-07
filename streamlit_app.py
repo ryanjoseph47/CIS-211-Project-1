@@ -51,11 +51,11 @@ if page =='🏠 Home':
             
                 📚 **Currently Learning:** Internet and Emergin Technologies (CIS 211)
             
-                🌱 **Fun Fact:** I can solve a Rubik's cube in under 2 minutes!
+                🌱 **Fun Fact:** I like reading manga !
             ''')
   with col2:
     # Placeholder for image
-    st.image('https://raw.githubusercontent.com/avinashjairam/cis211_project1/refs/heads/main/grumpy_cat.jfif', use_column_width=True)
+    st.image('https://share.google/images/X2IfYZisckVWz4rGd', use_column_width=True)
 
 # About Page
 elif page == '🤠 About':
@@ -66,9 +66,9 @@ elif page == '🤠 About':
 
   with st.expander('2025 - Present: Medgar Evers College'):
     st.write('''
-                - Major: Computer Information Systems
+                - Major: Accounting
                 - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
-                - Activities: Track Team, Volleyball Team, Hackathon participant
+                - Activities: Basketball, Soccer, Hackathon participant
             ''')
 
   with st.expander('2023 - 2025: NYC Museum School'):
@@ -79,7 +79,7 @@ elif page == '🤠 About':
             ''')
 
   st.subheader('Interests & Hobbies 🏀')
-  interests = ['Web Development', 'AI/Machine Learning', 'Photography', 'Basketball', 'Travel', 'Baseball']
+  interests = ['Web Development', 'AI/Machine Learning', 'Photography', 'Basketball', 'Travel', 'Baseball2']
 
   # Display the interests in columns
   cols = st.columns(3)
