@@ -92,16 +92,26 @@ elif page == '🧳 Projects':
 
 # Project 1 
 with st.container():
- col1, col2 = st.columns([1, 2])
+  col1, col2 = st.columns([1, 2])
   
     with col1:
-        st.image('https://assets.capsolver.com/prod/images/post/2024-05-07/80292cb6-05db-4611-bdcc-f93ce05ba0ae.jpeg')
+        st.image('https://iprx-cms-content.ams1.vultrobjects.com/Blog_How_To_Crawl_4_capcha_ded9206d5f.png')
 
     with col2:
         st.subheader('🛒 E-Commerce Price Tracker')
         st.write('Python web scraper that monitors Amazon prices and sends alerts')
         st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
 
+
+  # Project 2 
+  with st.container():
+    col1, col2 = st.columns([1,2])
+    with col1:
+      st.image('https://www.publicdomainpictures.net/pictures/90000/nahled/calculator-black-clipart.jpg')
+    with col2:
+      st.subheader('📊 Student Grade Calulator')
+      st.write('Interactive web app for calculating and visualizing grades')
+      st.caption('**Technologies:** Python, Pandas, Plotly')
 
 
 
