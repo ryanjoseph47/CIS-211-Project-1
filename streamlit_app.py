@@ -91,7 +91,7 @@ elif page == '🧳 Projects':
   st.write('Here are some projects i have worked on:')
 
 # Project 1 
-with st.contrainer():
+with st.container():
   coll, coll2 = st.colums([1,2])
 
 
