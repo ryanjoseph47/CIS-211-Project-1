@@ -112,6 +112,7 @@ with st.container():
         st.write('Interactive web app for calculating and visualizing grades')
         st.caption('**Technologies:** Python, Pandas, Plotly')
 
+
 elif page == '🛠 Skills':
     st.title('Technical Skills')
     st.subheader('Programming Languages')
