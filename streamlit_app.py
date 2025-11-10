@@ -27,7 +27,7 @@ if page =='🏠 Home':
   st.markdown('<p class="main-header">Ryan Joseph</p>', unsafe_allow_html=True)
   st.markdown('<p class="sub-header">Ryan Student | Medgar Evers College</p>', unsafe_allow_html=True)
 
-# Three Columns for stats
+  # Three Columns for stats
   col1, col2, col3 = st.columns(3)
 
   with col1:
@@ -39,7 +39,7 @@ if page =='🏠 Home':
 
   st.write('---')
 
-# Introduction with columns
+  # Introduction with columns
   col1, col2 = st.columns([2,1])
   with col1:
     st.subheader('Welcome to my digital space!👋')
@@ -90,27 +90,27 @@ elif page == '🧳 Projects':
   st.title('My Ptojects')
   st.write('Here are some projects i have worked on:')
 
-import streamlit as st
+  
+  # Project 1
+  with st.container():
+      col1, col2 = st.columns([1, 2])
+      with col1:
+          st.image('https://assets.capsolver.com/prod/images/post/2024-05-07/80292cb6-05db-4611-bdcc-f93ce05ba0ae.jpeg')
+      with col2:
+          st.subheader('🛒 E-Commerce Price Tracker')
+          st.write('Python web scraper that monitors Amazon prices and sends alerts')
+          st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
+  
+  # Project 2
+  with st.container():
+      col1, col2 = st.columns([1, 2])
+      with col1:
+          st.image('https://i.pinimg.com/736x/95/75/91/957591296622900be1b004289d040dae.jpg')
+      with col2:
+          st.subheader('📊 Student Grade Calculator')
+          st.write('Interactive web app for calculating and visualizing grades')
+          st.caption('**Technologies:** Python, Pandas, Plotly')
 
-# Project 1
-with st.container():
-    col1, col2 = st.columns([1, 2])
-    with col1:
-        st.image('https://assets.capsolver.com/prod/images/post/2024-05-07/80292cb6-05db-4611-bdcc-f93ce05ba0ae.jpeg')
-    with col2:
-        st.subheader('🛒 E-Commerce Price Tracker')
-        st.write('Python web scraper that monitors Amazon prices and sends alerts')
-        st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
-
-# Project 2
-with st.container():
-    col1, col2 = st.columns([1, 2])
-    with col1:
-        st.image('https://i.pinimg.com/736x/95/75/91/957591296622900be1b004289d040dae.jpg')
-    with col2:
-        st.subheader('📊 Student Grade Calculator')
-        st.write('Interactive web app for calculating and visualizing grades')
-        st.caption('**Technologies:** Python, Pandas, Plotly')
 elif page == '🛠 Skills':
     st.title('Technical Skills')
     st.subheader('Programming Languages')
