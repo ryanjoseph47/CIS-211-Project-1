@@ -92,7 +92,7 @@ elif page == '🧳 Projects':
 
 # Project 1 
 with st.container():
-  coll, coll2 = st.colums([1,2])
+  col, col2 = st.colums([1,2])
 
 
 
