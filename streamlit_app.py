@@ -92,7 +92,15 @@ elif page == '🧳 Projects':
 
 # Project 1 
 with st.container():
-  col, col2 = st.colums([1,2])
+ col1, col2 = st.columns([1, 2])
+  
+    with col1:
+        st.image('https://assets.capsolver.com/prod/images/post/2024-05-07/80292cb6-05db-4611-bdcc-f93ce05ba0ae.jpeg')
+
+    with col2:
+        st.subheader('🛒 E-Commerce Price Tracker')
+        st.write('Python web scraper that monitors Amazon prices and sends alerts')
+        st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
 
 
 
