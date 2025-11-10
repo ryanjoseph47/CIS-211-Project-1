@@ -68,7 +68,7 @@ elif page == '🤠 About':
     st.write('''
                 - Major: Accounting
                 - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
-                - Activities: Basketball, Soccer, Hackathon participant
+                - Activities: Basketball, Soccer, Football
             ''')
 
   with st.expander('2023 - 2025: NYC Museum School'):
@@ -86,4 +86,14 @@ elif page == '🤠 About':
   for i, interest in enumerate(interests):
     with cols[i % 3]:
       st.info(f'🔷 {interest}')
-  
+elif page == '🧳 Projects':
+  st.title('My Ptojects')
+  st.write('Here are some projects i have worked on:')
+
+# Project 1 
+with st.contrainer():
+  coll, coll2 = st.colums([1,2])
+
+
+
+
