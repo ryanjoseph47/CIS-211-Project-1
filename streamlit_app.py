@@ -55,7 +55,7 @@ if page =='🏠 Home':
             ''')
   with col2:
     # Placeholder for image
-    st.image('https://share.google/images/X2IfYZisckVWz4rGd', use_column_width=True)
+    st.image('https://wallpapers-clan.com/wp-content/uploads/2025/04/madara-uchiha-blue-flames-naruto-wallpaper-preview.jpg', use_column_width=True)
 
 # About Page
 elif page == '🤠 About':
