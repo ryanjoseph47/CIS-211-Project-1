@@ -90,16 +90,18 @@ elif page == '🧳 Projects':
   st.title('My Ptojects')
   st.write('Here are some projects i have worked on:')
 
-  
-  # Project 1
+    # Project 1
   with st.container():
       col1, col2 = st.columns([1, 2])
+    
       with col1:
           st.image('https://assets.capsolver.com/prod/images/post/2024-05-07/80292cb6-05db-4611-bdcc-f93ce05ba0ae.jpeg')
+        
       with col2:
           st.subheader('🛒 E-Commerce Price Tracker')
           st.write('Python web scraper that monitors Amazon prices and sends alerts')
           st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
+
   
   # Project 2
   with st.container():
@@ -113,6 +115,8 @@ elif page == '🧳 Projects':
 
 elif page == '🛠 Skills':
     st.title('Technical Skills')
+  
+  # Skills with progress bars
     st.subheader('Programming Languages')
 
     skills_data = {
@@ -131,16 +135,19 @@ elif page == '🛠 Skills':
             st.progress(level / 100)
 
     st.subheader('Tools & Technologies')
+  
     col1, col2, col3 = st.columns(3)
     with col1:
         st.success('Excel')
         st.info('Word')
         st.warning('Access')
-    with col2:
+    
+   with col2:
         st.success('PowerPoint')
         st.info('Google Docs')
         st.warning('ChatGPT/AI Tools')
-    with col3:
+   
+   with col3:
         st.success('Presentations')
         st.info('Writing')
         st.warning('Social Media')
