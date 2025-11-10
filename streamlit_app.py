@@ -1,28 +1,21 @@
 import streamlit as st
-import pandas as pd
-from datetime import datetime 
 
-# Page Config
+# Configure the page
 st.set_page_config(
   page_title = 'Ryan | portfolio',
   page_icon= '👽',
-  layout = 'wide'
+  layout="wide"
 )
 
-# Custom CSS (optional - for styling)
-st.mardown('''        
-              <style>
-                  .main-haeder {front-size: 42px; font-weight: bold; text-align:center;}
-                  .sub-header {font_size: 24px; text-align:center; color: #666;}
-             </style>
-           ''', unsafe_allow_html = True)
+# Define the pages
+home = st.Page("pages/home.py", title="Ryan Joseph")
+about = st.Page("pages/about.py", title="About me")
+contact = st.Page("pages/contact.py", title="Contact me")
+projects = st.Page("pages/projects.py", title="Projects")
+skills = st.Page("pages/skills.py", title="Skills")
 
-# Sidebar
-st. sidebar.title('📍 Navigation')
-page = st.sidebar.radio('Go to')
-                        ['🏠 Home', '😇About', '🧳 Projects', '🛠️ Skill', '📈b Resume',📩 Contact'])
+# Set up navigation
+pg = st.navigation([home, about, skills, projects, contact])
 
-# Home Page
-if page == '🏠 Home':
-  st.mardown('<p class="main-header">Ryan Joseph</p>', unsafe_allow_html=True)
-  st.mardown('<p class="sub-header">Ryan Student | Medgar Evers College</p>', unsafe_allow_html=True)
+# Run the selected page
+pg.run()
