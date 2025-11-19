@@ -31,11 +31,11 @@ if page =='🏠 Home':
   col1, col2, col3 = st.columns(3)
 
   with col1:
-      st.metric('GPA', '3.8', '📚')
+      st.metric('GPA', '3.0', '📚')
   with col2:
-      st.metric('Projects', '5', '💻')
+      st.metric('Projects', '2', '💻')
   with col3:
-      st.metric('Skills', '10+', '🚀')
+      st.metric('Skills', '6+', '🚀')
 
   st.write('---')
 
@@ -44,12 +44,12 @@ if page =='🏠 Home':
   with col1:
     st.subheader('Welcome to my digital space!👋')
     st.write('''
-                I am a Accounting student passionate about web development and Coding. Currently learning
-                HTML,and Python to build innovative solutions.
+                I am an Accounting student passionate about web development and Coding. Currently learning
+                HTML and Python to build innovative solutions.
             
                 🎯 **Current Focus:** Building interactive web applications with Streamlit
             
-                📚 **Currently Learning:** Internet and Emergin Technologies (CIS 211)
+                📚 **Currently Learning:** Internet and Emerging Technologies (CIS 211)
             
                 🌱 **Fun Fact:** I like reading manga !
             ''')
@@ -181,13 +181,13 @@ elif page == '📩 Contact':
     st.subheader('Send me a message.')
 
     st.write('''
-        📧 **Email:** yourname@email.com
+        📧 **Email:** ryanwidmie@gmail.com
 
-        🏢 **LinkedIn:** [linkedin.com/in/yourname](https://linkedin.com)
+        🏢 **LinkedIn:** [www.linkedin.com/in/ryan-joseph-b69009387](https://linkedin.com)
 
-        👩‍💻 **Github:** [https://github.com/avinashjairam](https://github.com)
+        👩‍💻 **Github:** [https://github.com/ryanjoseph47](https://github.com)
 
-        📷 **Instagram:** [@yourhandle](https://instagram.com)
+        📷 **Instagram:** [@yourhandle](https://www.instagram.com/rya_m37?igsh=em5xeTBycnpjcmVj&utm_source=qr)
 
     ''')
 
