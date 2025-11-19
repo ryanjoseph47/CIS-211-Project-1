@@ -153,4 +153,60 @@ elif page == '🛠 Skills':
     st.info('Writing')
     st.warning('Social Media')
     
-      
+  elif page == '📝 Resume':
+  st.title('Resume')
+
+  # Read PDF from my GitHub repository
+  with open('my_resume.pdf', 'rb') as pdf_file:
+    PDFbyte = pdf_file.read()
+  
+  st.download_button(
+    label ='🔻 Download Full Resume (PDF)',
+    data = PDFbyte,
+    file_name = 'my_resume.pdf',
+    mime ='application/pdf'
+  )
+
+elif page == '📩 Contact':
+  st.title("Let's Connect!")
+
+  col1, = st.columns(1)
+
+  with col1:
+    st.subheader('Send me a message.')
+
+    st.write('''
+        📧 **Email:** yourname@email.com
+
+        🏢 **LinkedIn:** [linkedin.com/in/yourname](https://linkedin.com)
+
+        👩‍💻 **Github:** [https://github.com/avinashjairam](https://github.com)
+
+        📷 **Instagram:** [@yourhandle](https://instagram.com)
+
+    ''')
+
+    # Fun interactive element
+    st.subheader('Current Status')
+
+    status = st.selectbox(
+        "I'm currently:",
+        [
+            '👩‍💻 Coding',
+            '📕 Studying',
+            '☕ On a coffee break',
+            '🎮 Gaming',
+            '😴 Sleeping'
+        ]
+    )
+
+
+    st.info(f'Status: {status}')
+
+    # Footer
+    st.write('---')
+    st.markdown(
+        f'<center>Made with 💗 using Streamlit | © {datetime.now().year} Avinash Jairam </center>',
+        unsafe_allow_html = True
+    )
+        
