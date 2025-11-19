@@ -153,7 +153,7 @@ elif page == '🛠 Skills':
     st.info('Writing')
     st.warning('Social Media')
     
-  elif page == '📝 Resume':
+elif page == '📝 Resume':
   st.title('Resume')
 
   # Read PDF from my GitHub repository
