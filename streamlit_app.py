@@ -18,9 +18,9 @@ st.markdown('''
            ''', unsafe_allow_html = True)
 
 # Sidebar
-st. sidebar.title('📍 Navigation')
+st.sidebar.title('📍 Navigation')
 page = st.sidebar.radio('Go to',
-                        ['🏠 Home', '😇About', '🧳 Projects', '🛠️ Skill', '📈b Resume', '📩 Contact'])
+                        ['🏠 Home', '🤠 About', '💼 Projects', '🛠 Skills' ,'📝 Resume', '📩 Contact' ])
 
 # Home Page
 if page =='🏠 Home': 
@@ -133,7 +133,7 @@ elif page == '🛠 Skills':
     with col1:
       st.write(skill)
     with col2:
-      st.progress(level/100)
+      st.progress(level/50)
 
   st.subheader('Tools & Technologies')
 
@@ -206,7 +206,7 @@ elif page == '📩 Contact':
     # Footer
     st.write('---')
     st.markdown(
-        f'<center>Made with 💗 using Streamlit | © {datetime.now().year} Avinash Jairam </center>',
+        f'<center>Made with 💗 using Streamlit | © {datetime.now().year} Ryan Joseph </center>',
         unsafe_allow_html = True
     )
         
