@@ -187,7 +187,7 @@ elif page == '📩 Contact':
 
         👩‍💻 **Github:** [https://github.com/ryanjoseph47](https://github.com)
 
-        📷 **Instagram:** [@yourhandle](https://www.instagram.com/rya_m37?igsh=em5xeTBycnpjcmVj&utm_source=qr)
+        📷 **Instagram:** [https://www.instagram.com/rya_m37?igsh=em5xeTBycnpjcmVj&utm_source=qr](https://instagram.com)
 
     ''')
 
