@@ -96,23 +96,22 @@ elif page == '💼 Projects':
     col1, col2 = st.columns([1, 2])
   
     with col1:
-        st.image('https://iprx-cms-content.ams1.vultrobjects.com/Blog_How_To_Crawl_4_capcha_ded9206d5f.png', use_column_width = True)
+        st.image('https://rclc.nd.edu/assets/534266/tutor_group_experiment.jpg', use_column_width = True)
 
     with col2:
-        st.subheader('🛒 E-Commerce Price Tracker')
-        st.write('Python web scraper that monitors Amazon prices and sends alerts')
-        st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
-
+        st.subheader('🛒 The Hebrew Educational Society')
+        st.write('Support daily program activities. Help students with homework and encourage positive learning habits')
+        st.caption('**After-School Aide Staff:** crafts,games, and academic assistance')
 
   # Project 2 
   with st.container():
     col1, col2 = st.columns([1,2])
     with col1:
-      st.image('https://www.publicdomainpictures.net/pictures/90000/nahled/calculator-black-clipart.jpg', use_column_width = True)
+      st.image('https://artmiamimagazine.com/wp-content/uploads/2023/07/1024px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg', use_column_width = True)
     with col2:
-      st.subheader('📊 Student Grade Calulator')
-      st.write('Interactive web app for calculating and visualizing grades')
-      st.caption('**Technologies:** Python, Pandas, Plotly')
+      st.subheader('🖼️ Student Art In History')
+      st.write('Interactive with Art and drawing')
+      st.caption('**Art In History:** Painting, Drawing')
 
 elif page == '🛠 Skills':
   st.title('Technical Skills')
@@ -199,7 +198,7 @@ elif page == '📩 Contact':
         [
             '👩‍💻 Coding',
             '📕 Studying',
-            '☕ On a coffee break',
+            '☕ On Tiktok',
             '🎮 Gaming',
             '😴 Sleeping'
         ]
