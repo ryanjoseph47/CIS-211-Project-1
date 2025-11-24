@@ -153,8 +153,8 @@ with col3:
     st.info('Data Visualization')
     st.warning('Team Collaboration')
     
-elif page == '📝 Resume':
-  st.title('Resume')
+elif page == '📝 Resume':   
+    st.title('Resume')
 
   # Read PDF from my GitHub repository
   with open('M21.pdf', 'rb') as pdf_file:
