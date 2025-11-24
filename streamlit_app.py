@@ -120,11 +120,11 @@ elif page == '🛠 Skills':
   st.subheader('Programming Languages')
 
   skills_data = {
-    'Python' : 25,
-    'HTML/CSS' : 30,
-    'JavaScript' : 20,
-    'SQL' : 30,
-    'Technical Writing' : 15
+    'Excel (Formulas, PivotTables)': 90,
+    'Financial Accounting': 85,
+    'Managerial Accounting': 80,
+    'Data Analysis (Excel/Python)': 70,
+    'SQL Basics': 50
   }
 
   for skill, level in skills_data.items():
@@ -136,21 +136,22 @@ elif page == '🛠 Skills':
 
   st.subheader('Tools & Technologies')
 
-  col1, col2, col3 = st.columns(3)
-  with col1:
-    st.success('Excel')
-    st.info('Word')
-    st.warning('Access')
+col1, col2, col3 = st.columns(3)
+
+   with col1:
+    st.success('Microsoft Excel')
+    st.info('QuickBooks')
+    st.warning('SAP (Basic)')
 
   with col2:
-    st.success('PowerPoint')
-    st.info('Google Docs')
-    st.warning('ChatGPT/AI Tools')
-    
+    st.success('Microsoft Word')
+    st.info('Google Sheets')
+    st.warning('Power BI')
+
   with col3:
-    st.success('Presentations')
-    st.info('Writing')
-    st.warning('Social Media')
+    st.success('Financial Reporting')
+    st.info('Data Visualization')
+    st.warning('Team Collaboration')
     
 elif page == '📝 Resume':
   st.title('Resume')
