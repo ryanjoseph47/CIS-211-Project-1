@@ -134,7 +134,7 @@ elif page == '🛠 Skills':
     with col2:
       st.progress(level/50)
 
-st.subheader('Tools & Technologies')
+  st.subheader('Tools & Technologies')
 
   col1, col2, col3 = st.columns(3)
   with col1:
