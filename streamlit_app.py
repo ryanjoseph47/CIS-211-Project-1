@@ -134,21 +134,20 @@ elif page == '🛠 Skills':
     with col2:
       st.progress(level/50)
 
-  st.subheader('Tools & Technologies')
+st.subheader('Tools & Technologies')
 
 col1, col2, col3 = st.columns(3)
-
-with col1:
+  with col1:
     st.success('Microsoft Excel')
     st.info('QuickBooks')
     st.warning('SAP (Basic)')
 
-with col2:
+  with col2:
     st.success('Microsoft Word')
     st.info('Google Sheets')
     st.warning('Power BI')
 
-with col3:
+  with col3:
     st.success('Financial Reporting')
     st.info('Data Visualization')
     st.warning('Team Collaboration')
