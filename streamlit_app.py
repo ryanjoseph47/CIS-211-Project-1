@@ -153,23 +153,18 @@ elif page == '🛠 Skills':
     st.warning('Social Media')
     
 elif page == '📝 Resume':
-    st.title('Resume')
+  st.title('Resume')
 
-    # Load PDF directly from GitHub
-    pdf_url = "https://raw.githubusercontent.com/avinashjairam/cis211_project1/refs/heads/main/my_resume.pdf"
-
-    import requests
-    response = requests.get(pdf_url)
-
-    if response.status_code == 200:
-        PDFbyte = response.content
-
-        st.download_button(
-            label='🔻 Download Full Resume (PDF)',
-            data=PDFbyte,
-            file_name='my_resume.pdf',
-            mime='application/pdf'
-        )
+  # Read PDF from my GitHub repository
+  with open('M21.pdf', 'rb') as pdf_file:
+    PDFbyte = pdf_file.read()
+  
+  st.download_button(
+    label ='🔻 Download Full Resume (PDF)',
+    data = PDFbyte,
+    file_name = 'my_resume.pdf',
+    mime ='application/pdf'
+  )
 
 elif page == '📩 Contact':
   st.title("Let's Connect!")
