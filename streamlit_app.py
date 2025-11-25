@@ -177,8 +177,6 @@ elif page == '📝 Resume':
             file_name='Ryan_Joseph_Resume.pdf',
             mime='application/pdf'
         )
-    else:
-        st.error("❌ Unable to load resume. Make sure the PDF is uploaded to GitHub.")
 
 # ---------------- CONTACT PAGE ----------------
 elif page == '📩 Contact':
